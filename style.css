@@ -1,0 +1,352 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+*
+{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+
+.header
+{
+    width: 100%;
+    background-color: #d6d3d3;
+    height: 70px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+    
+.logo
+{
+    width: 15%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+/* .logo:hover
+{
+    filter: grayscale(1);
+    transform: scale(1.3);
+    
+} */
+
+.nav
+{
+    width: 30%;
+    height: 70px;
+    /* background-color: blue; */
+}
+
+.nav-links
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: brown; */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+
+}
+
+   /* banner css */
+.banner
+{
+    width: 100%;
+    height: 500px;
+    background-color: #d6d3d3;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.details
+{
+    width: 60%;
+    padding: 20px;
+    /* background-color:  white; */
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.t1
+{
+    
+    font-size: 60px;
+}
+
+.t2
+{
+    
+    font-size: 70px;
+    font-weight: 700;
+    color: #5b5bb0;
+}
+
+.desc
+{
+    
+    font-size: 20px;
+}
+
+.cta
+{
+    padding: 16px 40px;
+    font-size: 20px;
+    margin-top: 35px;
+    background-color: #5b5bb0;
+    color: white;
+    border: 2px solid #5b5bb0;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.cta:hover{
+    background-color: transparent;
+    color: #5b5bb0;
+    transition: .2s;
+}
+
+.person
+{
+    /* background-color: #5b5bb0; */
+    border-radius: 50px;
+    padding: 30px;
+    /* align-self: flex-end; */
+}
+
+.person-img
+{
+    border-radius: 25% 10%;
+    height: 450px;
+}
+
+   /* services */
+.Services
+{
+  width: 100%;
+  padding: 30px 10%;
+  /* background-color: rebeccapurple; */
+}
+
+.section-title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.section-child
+{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: white; */
+    margin-top: 30px;
+    display: flex;
+    column-gap: 4%;
+}
+
+.services
+{
+    width: 22%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    row-gap: 15px;
+    box-shadow: 0 0 2px  red;
+
+}
+
+.icon
+{
+    padding: 50px;
+    font-size: 70px;
+    align-self: center;
+    color: grey;
+}
+
+.service-text
+{
+     font-size: 15px;
+     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.service-btn
+{
+    padding: 12px 25px;
+    background-color: #5b5bb0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+   /* acheivement  */
+.acheivements
+{
+    padding: 30px 10%;
+    background-color: #ededed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.acheivement
+{
+    width: 22%;
+    padding: 50px;
+    /* background-color: yellow; */
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    row-gap: 10px;
+}
+
+.acheivements-child
+{
+    column-gap: 2.5%;
+}
+
+
+.number
+{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.tag
+{
+  font-size: 18px;
+}
+
+.Quote
+{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    /* background-position: center; */
+    background-image: url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+}
+
+.quote-area
+{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp-email
+{
+    width: 70%;
+    height: 60px;
+    border: 2px solid white;
+    font-size: 18px;
+    text-indent: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+.clients
+{
+    width: 100%;
+    padding: 30px 10%;
+    /* background-color: red; */
+}
+
+.client-section-child
+{
+    /* background-color: white; */
+    column-gap: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-img
+{
+    width: 10%;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+    
+}
+
+.client-img:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+    /* footer */
+
+.footer 
+{
+  width: 100%;
+  padding: 30px 10%;
+  background-color: #4a4a4a;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+/* .section-child
+{
+    background-color: white;
+} */
+
+.footer-child
+{
+    width: 22%;
+    padding: 20px 20px;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-list
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.map
+{
+    width: 47%;
+    padding: 0;
+}
